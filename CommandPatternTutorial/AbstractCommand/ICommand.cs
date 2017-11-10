@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CommandPatternTutorial.AbstractCommand
 { 
-    interface ICommand
+    public interface ICommand
     {
         void Execute();
 

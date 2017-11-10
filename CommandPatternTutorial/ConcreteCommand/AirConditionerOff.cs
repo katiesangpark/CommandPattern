@@ -18,8 +18,9 @@ namespace CommandPatternTutorial.ConcreteCommand
         }
         public void Execute()
         {
-            ac.TurnOff();
             ac.DecreaseTemp();
+            ac.TurnOff();
+            
         }
   
     
