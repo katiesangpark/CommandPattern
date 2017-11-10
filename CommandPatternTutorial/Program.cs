@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 namespace CommandPatternTutorial
 {
     class Program
+
     {
         static void Main(string[] args)
         {
