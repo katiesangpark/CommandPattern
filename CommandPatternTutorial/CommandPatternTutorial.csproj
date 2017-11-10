@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractCommand\ICommand.cs" />
+    <Compile Include="ConcreteCommand\AirConditionerOff.cs" />
+    <Compile Include="ConcreteCommand\AirConditionerOn.cs" />
     <Compile Include="ConcreteCommand\LightOff.cs" />
     <Compile Include="ConcreteCommand\LightOn.cs" />
     <Compile Include="Invoker\RemoteController.cs" />
